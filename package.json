@@ -1,14 +1,14 @@
 {
-    "name": "teamsjssdkwebpack",
+    "name": "webex-js-sdk-bundling-examples",
     "version": "1.0.0",
-    "description": "",
+    "description": "Demonstrates 'webpack' bundling of the Webex JavaScript SDK for use in browser applications",
     "scripts": {
         "webpack": "bash -c ./webpack/webpack.sh",
         "parcel": "bash -c ./parcel/parcel.sh",
         "browserify": "bash -c ./browserify/browserify.sh"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "David Staudt <dstaudt@cisco.com>",
+    "license": "MIT",
     "dependencies": {
         "@babel/core": "^7.9.6",
         "@babel/polyfill": "^7.8.7",
