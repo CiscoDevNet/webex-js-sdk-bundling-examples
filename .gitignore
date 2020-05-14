@@ -1,0 +1,7 @@
+node_modules
+browserify/dist/
+parcel/.cache/
+parcel/dist/
+webpack/dist/
+cert.pem
+key.pem
