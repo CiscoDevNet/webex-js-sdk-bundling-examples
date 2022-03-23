@@ -9,8 +9,6 @@
 /* eslint-disable require-jsdoc */
 /* eslint-disable arrow-body-style */
 
-import { init as initWebex } from 'webex';
-
 // Declare some globals that we'll need throughout
 let webex;
 
