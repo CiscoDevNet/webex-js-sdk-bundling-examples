@@ -15,10 +15,10 @@ Bundling frameworks demonstrated:
 >This project was built/tested using:
 
 >* [Visual Studio Code](https://code.visualstudio.com/)
->* Ubuntu 20.04
->* Node 12.16.3
+>* Ubuntu 23.04
+>* Node v16.14.2
 
-[https://developer.webex.com/docs/sdks/browser](https://developer.webex.com/docs/sdks/browser)
+https://developer.webex.com/docs/sdks/browser
 
 ## Getting started
 
@@ -67,8 +67,10 @@ Bundling frameworks demonstrated:
 
 ```javascript
     ...
-    node: {
-    fs: 'empty'
+    resolve: {
+        fallback: { 
+            "fs": false
+        }
     }
     ...
 ```
