@@ -75,5 +75,8 @@ https://developer.webex.com/docs/sdks/browser
     ...
 ```
 
+* As of @webex 2.54.0, browserify > v16.5.1 bundling fails, see: https://github.com/cisco/node-jose/issues/301
+
+
 * See `package.json` for the `browserlists` array of target browsers/versions
 

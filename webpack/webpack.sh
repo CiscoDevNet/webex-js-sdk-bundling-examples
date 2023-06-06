@@ -7,5 +7,6 @@ ln -sf ../node_modules/@momentum-ui/icons/ .
 
 # Package the bundle, then
 # launch SSL web server: -d  'list directories'
-npx webpack --config webpack.config.js && \
+webpack --config webpack.config.js || exit
+
 http-server --port 3000 -d false -c-1 --ssl --cert ../cert.pem --key ../key.pem
